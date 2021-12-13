@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    name: test1  #????
+    url: jdbc:mysql://localhost:3307/android?useUnicode=true&amp;characterEncoding=utf-8 #url
+    username: root  #???
+    password: 123456  #??
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.neu.android_back.entities
+server:
+  port: 8443
+
